@@ -33,7 +33,7 @@ struct ArchiveView: View {
         }
     }
 
-    // 따로 파일 통신이나 데이터처리 없이 드로잉데이터 썸네일화
+    // 따로 파일 통신이나 데이터처리 없이 드로잉데이터 썸네일화 ... kinda실패!
     struct Thumbnail: UIViewRepresentable {
         let drawingData: Data
 

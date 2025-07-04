@@ -16,7 +16,7 @@ struct ToolBarView: View {
     @State private var showArchive = false
 
     let colors: [UIColor] = [.black, .red, .blue, .green, .orange]
-
+    
     var body: some View {
         HStack {
 //            // 그리는 도구
